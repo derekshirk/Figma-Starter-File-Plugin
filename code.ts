@@ -1,11 +1,11 @@
-// Driveway Figma New File Setup For Driveway XD
+// Figma New File Setup
 // Plugin Author: Derek Shirk
 
 // Cover component key
 const coverKey = "cc075773903303bbde3c81b68adaf4d69f83aa7a";
 
 // Page names
-let drivewayPages = [
+let FigmaPages = [
   " ",
   "Build Phase 🔴",
   "      ↳ 📐 VQA",
@@ -77,7 +77,7 @@ let run = async () => {
   figma.setFileThumbnailNodeAsync(coverFrame);
 
   // Create other pager
-  for (let page of drivewayPages) {
+  for (let page of FigmaPages) {
     let newPage = figma.createPage();
     newPage.name = page;
   }
